@@ -1,0 +1,61 @@
+footer {
+	height: 380px;
+	padding-bottom: 100px;
+
+	.container {
+		overflow: visible;
+	}
+
+	.footer-bg {
+		width: 1364px;
+		height: 210px;
+		background: url('../i/footer-bg.png') 0 0 no-repeat;
+		margin: -78px 0 -35px -205px;
+	}
+
+	.banners {
+		margin-bottom: 35px;
+		overflow: auto;
+
+		a {
+			img {
+				width: 206px;
+				height: auto;
+				border: 7px solid #FFF;
+				//@include box-shadow(#fff 0 0 0 7px inset);
+			}
+
+			&:hover {
+				opacity: 0.9;
+			}
+		}
+	}
+
+	.copy {
+		overflow: auto;
+		margin-bottom: 35px;
+		ul {
+			li {
+				list-style: none;
+				float: left;
+				margin-left: 49px;
+
+				&:first-child {
+					margin: 0 0 0 11px;
+				}
+			}
+		}
+	}
+
+	.adress {
+		overflow: auto;
+		margin-bottom: 50px;
+
+		img {
+			float: left;
+			margin: 8px 14px 0 15px;
+		}
+	}
+
+
+}
